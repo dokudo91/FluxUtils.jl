@@ -1,0 +1,9 @@
+name = "FluxUtils"
+uuid = "fb81853f-0612-4571-b46f-558a509b923e"
+authors = ["dokudo91 <92647519+dokudo91@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
