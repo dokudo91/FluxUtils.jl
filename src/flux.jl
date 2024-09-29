@@ -22,6 +22,11 @@ end
 
 """
     load_model!(model, filepath)
+
+# Example
+```
+model = load_model!(Dense(3=>1), "model.jld2")
+```
 """
 function load_model!(model, filepath)
     state = JLD2.load(filepath, "state")
